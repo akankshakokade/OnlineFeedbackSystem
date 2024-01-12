@@ -1,0 +1,449 @@
+@charset "UTF-8";
+/* CSS for ViewAllTrainer.java */
+.port1{
+	margin-top: 64.3px;
+    width: 85%;
+    min-height: 92vh;
+    float: right;
+	background-image: url("../images/12.jpg");
+	background-size: cover;
+	font-family: 'Raleway',san-serif;
+}
+.table-container{
+	padding: 5%;
+	width: 90%
+}
+.search-bar{
+	width: 100%;
+}
+.search-bar input{
+	width: 80%;
+	font-size: 18px;
+	height: 5vh;
+	border-radius: 10px;
+	text-align: center;
+}
+.search-bar select{
+	width:19%;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 8px 15px;
+}
+.table-container table{
+	width: 100%;
+	font-size: 18px;
+	margin: 2% 0%;
+	border: 2px white dotted;
+	backdrop-filter: blur(100px);
+}
+.table-container table thead{
+	color: white;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(121,43,9,1) 33%, rgba(0,212,255,1) 100%);
+}
+.table-container table tbody tr:hover{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(121,43,9,1) 33%, rgba(0,212,255,1) 100%);
+	color: white;
+}
+.table-container table tr td,th{
+	text-align: center;
+	height: 5vh;
+}
+.table-container table tr td:hover{
+	font-size: 20px;
+}
+.disable-btn input{
+	color: red;
+}
+.th-size{
+	width: 10%;
+}
+.tdc-size{
+	width: 12%;
+}
+.tdm-size{
+	width:24%;
+}
+.update-tr{
+	width: 20%;
+}
+/* for  tag */
+.table-container table tr td input{
+	background-color: transparent;
+	border-radius: 5px;
+	color: blue;
+	font-size: 16px;
+	border: 1px white solid;
+	width: 90%;
+	height: 3.5vh;
+}
+.table-container table tr td input:hover{
+	background-color: white;
+	font-size: 18px;
+}
+.a-btn{
+	text-decoration: none;
+	background-color: transparent;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 2px 70px;
+	color: blue;
+	border: 1px white solid;
+	width: 100%;
+	height: 3vh;
+}
+.a-btn:hover{
+	background-color: white;
+	font-size: 20px;
+}
+.a-btn1{
+	text-decoration: none;
+	background-color: transparent;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 2px 15px;
+	color: blue;
+	border: 1px white solid;
+	width: 90%;
+	height: 3vh;
+}
+.a-btn1:hover{
+	background-color: white;
+	font-size: 18px;
+}
+
+
+/* CSS for IndivisualViewTrainer.java */
+.com-container{/* for all tables */
+	padding: 5% 5% 1% 5%;
+	width: 90%;
+	font-size: 18px;
+}
+/* Personal info and skill and qualification */
+.pi-container table{
+	width: 100%;
+	backdrop-filter: blur(10px);
+	font-size: 20px;
+	border: 2px solid white;
+	color: white;
+	border-radius: 5px;
+}
+/* for all tables caption */
+.com-container caption{/* for caption bar */
+	margin: 0.3%;
+	color: black;
+	padding: 3px;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: white;
+}
+.pi-container table tr th{
+	padding: 0px 5%;
+	text-align: left;
+}
+.pi-container table tr td{
+	height: 5vh;
+}
+/* for skill table */
+.sk-container table {
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+}
+/* for qualification table */
+.quali-container table{
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+}
+.quali-container table tr th{
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+.back-btn{
+	padding: 5%;
+	width: 90%;
+	margin-bottom: 5%;
+	backdrop-filter: blur(2px);
+}
+
+
+
+/*CSS for UpdateTrainer page */
+.port3{
+	margin-top: 64.3px;
+    width: 85%;
+    min-height: 92vh;
+    float: right;
+	background-image: url(../images/cool-background.png);
+	background-size: cover;
+	background-repeat: repeat;
+}
+.up-trainer table{
+	backdrop-filter: blur(0px);
+}
+.up-trainer table thead tr{
+	background: rgb(51,52,54);
+	background: linear-gradient(90deg, rgba(51,52,54,0.9445028011204482) 16%, rgba(222,220,62,0.8408613445378151) 55%, rgba(19,233,231,1) 98%);
+}
+.up-trainer table tbody tr:hover{
+	color: white;
+	font-weight: bold;
+	background: rgb(51,52,54);
+	background: linear-gradient(90deg, rgba(51,52,54,0.9445028011204482) 7%, rgba(50,58,104,0.8408613445378151) 60%, rgba(34,221,131,1) 100%);
+}
+
+
+
+/* CSS for UpdateTrainerData */
+.port4{
+	margin-top: 64.3px;
+    width: 85%;
+    min-height: 92vh;
+    float: right;
+    background-image: url('../images/cool-background 2.png');
+    background-size: cover;
+    background-repeat: repeat;
+}
+.update-nav{
+    width: 90%;
+    padding: 15px;
+    margin: 0% 0% 3% 0%;
+    border-radius: 5px 0px 50px 0px;
+    background-image: url('../images/17.jpg');
+    background-size: cover;
+    transition: 0.7s;
+}
+.update-nav:hover{
+	box-shadow: 8px 8px 10px #000080;
+}
+.update-nav li{
+    display: inline;
+}
+.update-nav li a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+   	padding: 5px 30px;
+   	margin: 0px 20px;
+   	letter-spacing: 1px;
+   	border: 1px double white;
+    border-radius: 20px 0px 20px 0px;
+    font-weight: bold;
+    transition: 0.7s;
+}
+.update-nav li a:hover{
+	box-shadow: 0 0 5px white,
+				 0 0 25px white,
+				 0 0 50px white,
+				 0 0 200px white;
+	background-color: white;
+	color: black;
+}
+/* for all tables */
+.psk-container{
+	padding: 5%;
+	width: 90%;
+}
+.pi-data caption{
+	background-color: white;
+	margin: 10px 100px;
+	letter-spacing: 1px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+/* personal information */
+.pi-data .id{
+	background-color: white;
+}
+.pi-data table{
+	width: 80%;
+	margin: 0 10%;
+}
+.pi-data table tr{
+	width: 100%;
+}
+.pi-data table tr th{
+	border-bottom: 2px solid black;
+	font-size: 20px;
+	padding: 0% 2%;
+	width: 20%;
+	text-align: left;
+	background-color: white;
+}
+.pi-data table tr td{
+	border-bottom: 2px black solid;
+}
+.pi-data table tr td input,select{
+	border: none;
+	text-align: center;
+	font-size: 20px;
+	width: 100%;
+	height: 5vh;
+}
+.up-btn{
+	margin: 0% 10%;
+	width: 74%;
+	padding: 3%;
+}
+.up-btn input{
+	letter-spacing: 1px;
+	width: 30%;
+	padding: 10px;
+	margin-left: 35%;
+	border-radius: 5px;
+	font-size: 17px;
+	transition: 0.8s;
+}
+.up-btn input:hover{
+	box-shadow: 0 0 5px #ff8000,
+				 0 0 25px #ff8000,
+				 0 0 50px #ff8000,
+				 0 0 200px #ff8000;
+	background-color: #ff8000;
+	color: white;
+	border: none;
+	font-weight: bold;
+}
+
+
+/* for updateTrainerrSkill servlet */
+
+#skillcontainer table{
+	width: 100%;
+	margin-top: -5%;
+	border: 2px black solid;
+	background-color: #cfcfcf;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#skillcontainer table caption{
+	background-color: white;
+	margin: 10px 100px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#skillcontainer table tr:hover{
+	transition: 1.5s;
+	background-color: black;
+	color: white;
+}
+#skillcontainer table tr td{
+	letter-spacing: 1px;
+	border: 2px white solid;
+	height: 5vh;
+}
+#skillcontainer table tr td input{
+	width:80%;
+	height: 4vh;
+	border-radius: 5px;
+	background-color: #ff5e5e;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+/*  for qualification table */
+#qli table{
+	width: 100%;
+	margin-top: -5%;
+	border: 2px black solid;
+	background-color: #cfcfcf;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#qli table caption{
+	background-color: white;
+	margin: 10px 100px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#qli table tr:hover{
+	transition: 1.5s;
+	background-color: black;
+	color: white;
+}
+#qli table tr td{
+	letter-spacing: 1px;
+	border: 2px white solid;
+	height: 5vh;
+}
+#qli table tr td input{
+	width:80%;
+	height: 4vh;
+	border-radius: 5px;
+	background-color: #ff5e5e;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.skup-container{
+	margin: 0 5% 0 5%;
+	width: 90%;
+}
+.skup-container table{
+	margin-top: -2%;
+	width: 100%;
+	border: 2px black solid;
+	background-color: #cfcfcf;
+	font-size: 18px;
+	font-weight: bold;
+}
+.skup-container table caption{
+	background-color: white;
+	margin: 10px 100px;
+	/* padding: 8px; */
+	/* font-size: 18px; */
+	letter-spacing: 1px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.skup-container table td{
+	letter-spacing: 1px;
+	height: 4vh;
+	padding-left: 20px;
+	width: 33.33%;
+	border: 2px solid white;
+}
+.skup-container table td:hover{
+	transition: 1s;
+	background-color: black;
+	color: white;
+}
+.addskill{
+	margin: 2% 0 2% 0;
+	width: 100%;
+	/* background: white; */
+}
+.addskill input{
+	letter-spacing: 1px;
+	margin: 1% 40% 1% 40%;
+	width: 20%;
+	height: 4vh;
+}
+
+/* css for TrainerQualification servlet */
+.quali-table{
+	margin-top: 8%;
+	margin-bottom: 0%;
+}
+.quali-container{
+	margin-top: -8%;
+}
+.quali-container select{
+	background-color: white;
+	border: 2px solid #800000;
+}
+.margin5{
+	margin-top: 2%;
+}

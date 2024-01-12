@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+.port {
+	color: white;
+}
+.container {
+	width: 30rem;
+	padding: 1rem;
+	background-color: #2fffff;
+	background-image: url("../images/14.jpg");
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+	margin: 11rem 22rem;
+}
+.oput{
+	padding: 10px;
+	width:	80%;
+	height:	3vh;
+	color: black;	
+}
+.btn {
+	width: 15rem;
+	height: 3rem;
+	background-color: black;
+	color: white;
+}
+input {
+	border-radius: 10px;
+}
+
+.btn:hover {
+	color:black;
+	background-color: white;
+	font-weight: bold;
+	font-size: medium;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
+.container div input {
+	width: 70%;
+	height: 2.5rem;
+	padding: 5px;
+	margin: 1rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container div select {
+	width: 70%;
+	height: 2.5rem;
+	padding: 5px;
+	margin: 1rem;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #aeaeae;
+}
+.search-btn{
+	width:80%;
+	height: 5vh;
+	text-align:center;
+	margin: 3% 10%;
+}
+.container div h2 {
+	color: rgb(0, 0, 0);
+}
+
+.container div h4 {
+	float: left;
+	margin-left: 5rem;
+}
+.sub-btn {
+	width: 100%;
+	height: 3rem;
+	border: 2px red solid;
+	/* margin: 1rem; */
+}
+
+.table-container {
+	margin-left:5%;
+	width: 90%;
+	background-color: white;
+	text-align: center;
+}
+
+.table-container tr th {
+	height: 2rem;
+	background-color: black;
+	color: white;
+}
+
+.table-container tr td {
+	height: 2rem;
+	font-size: 20px;
+	border-bottom: 1px black solid;
+}
+.status-table{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+}
+.status-table tr{
+	font-size: 20px; 
+	margin-top:1rem;
+}
+.status-table tr th {
+	height: 2rem;
+	background-color: #8000ff;
+	color: white;
+}
+.status-table tr td,th{
+	border:1px solid black;
+	height:3rem;
+}
+.status-table tr td {
+	height: 3rem;
+}
+.status-table tr td a{
+	padding: 5px 50px 5px 50px;
+	text-decoration: none;
+	border: 1px black solid;
+	border-radius: 3px;
+	color:white;
+}
+.enable-btn{
+	background-color: green;
+	width: 200px;
+}
+.disable-btn{
+	background-color: red;
+}
+/* for FeedbackQuestions */
+.outer-container{
+	width: 95%;
+	min-height: 80vh;
+	padding: 5% 0 0 5%;
+	color: black;
+	text-align: center;
+}
+.inner-container{
+	width: 90%;
+	border: 2px #6262ff solid;
+	padding: 8px;
+	border-radius: 8px;
+	background: #e6e6ff;
+}
+.inner-container textarea{
+	width: 90%;
+	margin-top: 10px;
+	margin-left: 5%;
+	border-radius: 8px;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+}
+.inner-container input{
+	width: 20%;
+	margin-top: 10px;
+	padding:  5px;
+	background: #800040;
+	color: white;
+	font-weight: bold;
+	border-radius: 8px;
+	border: 2px solid grey;
+}
+.inner-table{
+	width: 90%;
+	padding: 8px;
+	/* border: 2px red solid; */
+}
+.inner-table table{
+	width: 100%;
+	text-align: center;
+	border: 2px solid black;
+}
+.inner-table table thead{
+	background: grey;
+	color: white;
+	font-size: 20px;
+}
+.inner-table table tbody tr{
+	background: pink;
+	height: 5vh;
+	font-size: 20px;
+}

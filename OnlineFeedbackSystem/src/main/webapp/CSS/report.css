@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.rptport{
+	margin-top: 64.3px;
+    width: 85%;
+    min-height: 72vh;
+    float: right;
+	background: #fcfcfc;
+}
+.sub-container{
+	margin: 2% 5%;
+	padding: 1%;
+	border-radius: 8px;
+	background: #004040;
+}
+.sub-container select{
+	width: 50%;
+	margin-left: 25%;
+	padding: 0.5%;
+	text-align: center;
+	font-size: 17px;
+	overflow: auto;
+	border-radius: 8px;
+}
+.trainer-table{
+	width: 100%;
+}
+.trainer-table table{
+	margin: 1% 5%;
+	width: 90%;
+	border: 2px black solid;
+}
+.trainer-table table thead tr th{
+	background: #804000;
+	color: white;
+	height: 5vh;
+}
+.trainer-table table tbody tr:hover{
+	background: red;
+	color: white;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.trainer-table table tbody tr td{
+	width: 20%;
+	height: 5vh;
+	text-align: center;
+}

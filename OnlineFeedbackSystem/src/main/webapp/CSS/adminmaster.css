@@ -1,0 +1,181 @@
+@charset "UTF-8";
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+	background-color:#fcfcfc;
+}
+.port{        /*   use for templet  background-color:transperant; */
+    margin-top: 64.3px;
+    width: 85%;
+    min-height: 92vh;
+    float: right;
+ 	background:#f1f1f1;
+}
+a{
+    text-decoration:none;
+}
+.nav{
+	box-shadow: 3px 3px 5px black;
+    width: 85%;
+    margin-left:15%;
+    z-index: 1;
+    height: 4rem;
+    /* border: 2px red solid; */
+    position: absolute;
+    background-color: rgb(135, 206, 223);
+    /* background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(121,43,9,1) 33%, rgba(0,212,255,1) 100%);
+     */color: rgb(244, 242, 242);
+    position: fixed;
+    display: inline;
+}
+.title{
+    margin: 0.5rem;
+    width: 20rem;
+    padding: 0.5rem;
+    background-color: white;
+   /*  border: 2px black dotted; */
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+}
+.nav ul{
+    display: inline;
+}
+.nav ul li{
+    width: 7rem;
+    position: relative;
+    margin: 0.3rem;
+    margin-right: 2rem;
+    text-align:center;
+    font-size:22px;
+    padding: 1rem;
+    float: right;
+    display: inline;
+    color: black;
+}
+.nav ul li a{
+	color: black;
+}
+.nav ul li:hover{
+	color: blue;
+	font-size: 24px;
+}
+.nav ul li a:hover{
+	color: blue;
+	font-size: 24px;
+}
+.menu{
+	box-shadow: 3px 3px 5px black;
+    width: 15%;
+    height: 50rem;
+    position: absolute;
+    background-color: rgb(135, 206, 223);
+  	/* background: rgb(2,0,36);
+	background: linear-gradient(160deg, rgba(121,43,9,1) 30%, rgba(0,212,255,1) 90%);
+     */
+     position: fixed;
+}
+.branding{
+    color: rgb(8, 8, 8);
+    width: 98%;
+    height: 3.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.branding:hover{
+    color: white;
+    text-shadow: 2px 2px 2px red;
+}
+.submenu{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: rgb(12, 0, 0);
+}
+.submenu ul li{
+    list-style-type: none;
+}
+.submenu ul :hover{
+    color:white
+}
+.submenu h4{
+    padding: 5px;
+    margin-left: 0.7rem;
+    margin-right: 0.3rem;
+    /* border:2px red solid; */
+}
+.submenu h4:hover{
+	color:white;
+    background-color: rgb(5, 5, 5);
+}
+.dropdown-container{
+    float: right;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    width: 80%;
+    display:none;
+    z-index: 1;
+}
+.dropdown-container a{
+    width: 100%;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: rgb(7, 4, 4);
+    display: block;
+}
+.dropdown-container a:hover{
+    color: white;
+    background-color: rgb(52, 48, 48);
+}
+.dropdown-btn:hover .dropdown-container{
+    display: block;
+}
+.nav-btn{
+	width:100%;
+}
+.profile-dropdown{
+    width: 15rem; 
+    display: none;
+    padding:20px;
+    margin-top: 1rem;
+    margin-left: -5rem;
+    position: absolute;
+    z-index: 1;
+    background-color:transparent;
+    border: 2px black solid;
+    border-radius: 20px 0px 20px 0px;
+}
+.profile-dropdown p{
+	margin:10px;
+}
+.dropdown-btn:hover .profile-dropdown{
+	backdrop-filter: blur(10px);
+    display: block;
+    color: black;
+}
+/* back-btn */
+.back-btn a{
+	text-decoration: none;
+	background-color: white;
+	color: #03e9f4;
+	font-weight: bold;
+	border-radius: 5px;
+	letter-spacing: 4px;
+	font-size: 20px;
+	padding:10px 70px;
+	margin-left: 42%;
+	transition: 0.5s;
+	/* cursor: pointer; */
+}
+.back-btn a:hover{
+	background: #03e9f4;
+	color: #050801;
+	box-shadow: 0 0 5px #03e9f4,
+				0 0 25px #03e9f4,
+				0 0 50px #03e9f4,
+				0 0 200px #03e9f4;
+}

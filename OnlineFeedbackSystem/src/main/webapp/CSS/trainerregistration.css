@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+		.port1{
+			margin-top: 64.3px;
+   			width: 85%;
+   			min-height: 92vh;
+   			float: right;
+			background: rgb(2,0,36);
+			background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            background-color: antiquewhite;
+            font-size: 18px;
+            color: white;
+        }
+        .container{
+            width: 80%;
+            padding: 10px;
+        }
+        .container2{
+            padding-top: 80px; 
+        }
+        .element{
+            width: 100%;
+            padding: 1% 0% 1% 10%;
+        }
+        .element center h2{
+        	border-top: 2px solid white;
+        	border-bottom: 2px solid white;
+        	margin: 0% 35%;
+        }
+        .element label{
+            font-size: 18px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .element input{
+            width: 100%;
+            padding: 10px;
+            display: block;
+            font-size: 16px;
+            border-radius: 5px;
+            background-color: rgb(225, 222, 222);
+        }
+        .element select{
+        	width:100%;
+        	padding: 10px;
+        	border-radius: 5px;
+        	font-size: 16px;
+        }
+        .element a{
+        	border: 1px solid white;
+        	padding: 5px;
+        	margin-left: 40%;
+        	color: white;
+        }
+        .dob-btn{
+            width: 30%;
+        }
+        .btn input{
+            width: 40%;
+            margin-left: 30%;
+            background-color: white;
+        }
+        .btn input:hover{
+            background-color: rgb(131, 131, 239);
+        }
+        .profile-btn{
+        	width: 30%;
+        	padding: 1.5vh;
+        	margin: 2% 33%;
+        	background-color: white;
+        }
+        .profile-btn{
+        	font-style: bold;
+        	font-size: 22px;
+        	text-align: center;
+        }
+        .college-container1{
+       		padding: 1% 0% 1% 10%;
+        	margin: 2% 10%;
+        	width: 90%;
+        	border-radius: 10px;
+        	background-color: white;
+        	opacity: 70%;
+        }
+        .college-container1 input{
+        	border: 1px solid white;
+        	background-color: black;
+        	padding: 10px 20px;
+        	margin-left: 35%;
+        	color: white;
+        }
+        .skill-container{
+        	margin: 5% 10%;
+        	width: 100%;
+        }
+        .skill-container table{
+        	border: 1px black solid;
+        	width: 80%;
+        	margin: 1% 10%;
+        }
+        .skill-container table td{
+        	width: 33%;
+        	height: 3vh;
+        	color: white;
+        }
+        
+   /* Qualification.js CSS */
+        #adddegree{
+        	color: black;
+        	margin-left: 25%;
+        	width: 40%;
+        }
+        #adddegree input{
+        	display: block;
+        	background-color: pink;
+        	color: black;
+        	text-align: center;
+        	border: 1px solid black;
+        	border-radius: 10px 0px 10px 0px;
+        }
+        #dname{
+        	position: relative;
+        	width:60%;
+        	margin: 2%;
+        	margin-left: 13%;
+        }
+        #dg-btn{
+        	margin-left: 30%;
+        }
+        #addskills{
+        	width: 90%;
+        	text-align: center;
+        	color: black;
+        }
+        #skname{
+       		margin: 1%;
+       		display: block;
+        	margin-left: 34%;
+        	background-color: pink;
+        	color: black;
+        	text-align: center;
+        	border: 1px solid black;
+        	border-radius: 10px 0px 10px 0px;
+        }
+        #sk-btn{
+        	background-color: pink;
+        	margin-left: -7%;
+        	color: black;
+        	text-align: center;
+        	border: 1px solid black;
+        	border-radius: 10px 0px 10px 0px;
+        }

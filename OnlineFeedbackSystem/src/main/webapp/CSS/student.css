@@ -1,0 +1,220 @@
+@charset "UTF-8";
+
+.stuport{
+	margin-top: 64.3px;
+    width: 75%;
+    min-height: 72vh;
+    float: right;
+	background: #fcfcfc;
+	padding: 5%;
+}
+#heading{
+	text-align: center;
+}
+.student-container{
+	display: flex;
+	justify-content: center;
+	background: #e0e0e0;
+	border-radius: 30px;
+	box-shadow: 0 0 5px #6464ff,
+				0 0 25px #6464ff,
+				0 0 50px #6464ff,
+				0 0 200px #6464ff;			
+}
+.student-container form{
+	width: 50%;
+	padding: 4%;
+}
+.student-container input,h1,label{
+	width: 90%;
+	padding: 8px;
+}
+.student-container label{
+	font-size: 17px;
+}
+.student-container input{
+	background: #f9f9f9;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+.student-container input:hover{
+	transition: 0.5s;
+	box-shadow: 0 0 5px #96e7db,
+				0 0 25px #96e7db,
+				0 0 50px #96e7db,
+				0 0 200px #96e7db;
+}
+.sub-container{
+	width: 50%;
+	background: #0a16ff;
+	border-radius: 0 30px 30px 0;
+}
+.sub-container pre{
+	margin: 40% 10%;
+	text-align: center;
+	color: white;
+	letter-spacing: 0.5px;
+	text-shadow: 4px 4px 4px black;
+}
+.sub-container pre h1{
+	font-size: 36px;
+}
+#sub-btn{
+	margin-top: 25px;
+	width: 40%;
+	background: green;
+	color: white;
+	font-weight: bold;
+	margin-left: 30%;
+}
+#sub-btn:hover{
+	transition: 0.5s;
+	box-shadow: 0 0 5px #400000,
+				0 0 25px #400000,
+				0 0 50px #400000,
+				0 0 200px #400000;
+}
+#result{
+	display: block;
+	text-align: center;
+}
+/* for ViewStudents  */
+.search-container{
+	width: 98%;
+	margin: 0.5%;
+}
+.search-container input{
+	width: 80%;
+	background: white;
+	padding: 8px;
+	text-align: center;
+	border-radius: 50px;
+	margin-left: 10%;
+}
+.table-container{
+	width: 100%;
+}
+.table-container table{
+	width: 100%;
+	padding: 0.1%
+}
+.table-container table tbody{
+	text-align: center;
+}
+.allstudent{
+	box-shadow: 0 0 5px #400000;
+}
+.allstudent table{			/* for allstudent table */
+	margin-top: 4vh;
+	font-size: 18px;
+	background: #ffa6a6;
+}
+.allstudent table thead th{
+	border: 3px black solid;
+	background: white;
+	height: 5vh;
+}
+.allstudent table tbody td{
+	background: pink;
+	height: 5vh;
+	color: 0 0 5px #400000;
+}
+/* indivisualStudentInfo */
+.ind-container{
+	padding: 0%;
+	margin: 0%;
+	width: 100%;
+	min-height: 97vh;
+	background: #c6c6c6;
+}
+.info-container{
+	width: 60%;
+	margin: 3% 10%;
+	padding: 5% 10%;
+	background: pink;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+}
+.info-container #heading{
+	color: white;
+}
+.ind1 div{
+	width: 100%;
+	padding: 8px;
+	margin-top: 5px;
+	margin-left: 5%;
+	/* border: 2px solid red; */
+}
+.ind2 div{
+	display: inline-block;
+	margin-top: 5px;
+	/* border: 2px black solid; */
+	padding: 8px;
+	margin-right: 25%;
+}
+.info-container lable{
+	color: #8000ff;
+}
+.back-btn{ 
+	margin-left: 40%;
+	padding: 8px 50px;
+	text-decoration: none;
+	background: white;
+	border: 2px solid black;
+}
+/* AllocateSubjectToTrainer */
+.subtotrainer{
+	width: 90%;
+	padding: 1% 5%;
+	background: #e7e7e7;
+}
+.subtotrainer table{
+	width: 100%;
+	font-size: 18px;
+	border: 2px solid black;
+}
+.subtotrainer table caption{
+	font-size: 20px;
+	margin: 1%;
+	font-weight: bold;
+}
+.subtotrainer table th{
+	background: black;
+	color: white;
+	height: 5vh;
+}
+.subtotrainer table td select{
+	width: 100%;
+	height: 5vh;
+	padding: 0 20px;
+}
+.subtotrainer table td select option{
+	padding-left: 50px;
+}
+.subtotrainer table td input{
+	width: 40%;
+	margin: 1% 30%;
+	height: 5vh;
+	background: green;
+	border: 2px white solid;
+	border-radius: 8px;
+	font-size: 18px;
+	color: white;
+}
+.subtotrainer table td h4{
+	width: 100%;
+	text-align: center;
+}
+/* GetAllocatedSubjectForTrainer */
+#allocatedsubject{
+	margin-top: 1%;
+}
+#allocatedsubject table tr td{
+	border: 2px white solid;
+	height: 5vh;
+	width: 33.33%;  
+	text-align: center;
+}
+#allocatedsubject table tr td button{
+	padding: 1% 20%;
+}
